@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 This interactive Shiny dashboard analyses AI readiness across the six GCC countries (UAE, Saudi Arabia, Qatar, Oman, Bahrain, and Kuwait) using the **Oxford Government AI Readiness Index (2020–2024)**.
 
@@ -14,7 +14,7 @@ This interactive Shiny dashboard analyses AI readiness across the six GCC countr
 
 ---
 
-## 🗂️ Dashboard Tabs
+##  Dashboard Tabs
 
 | Tab | Description |
 |-----|-------------|
@@ -28,7 +28,7 @@ This interactive Shiny dashboard analyses AI readiness across the six GCC countr
 
 ---
 
-## 📦 Required R Packages
+## Required R Packages
 
 Before running, install all required packages by running this in RStudio:
 
@@ -47,7 +47,7 @@ install.packages(c(
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Download `app.R` from this repository
 2. Open it in **RStudio**
@@ -61,7 +61,7 @@ The dashboard will open in your browser automatically.
 
 ---
 
-## 📊 Data Sources
+## Data Sources
 
 | Source | URL | License |
 |--------|-----|---------|
@@ -72,7 +72,7 @@ The dashboard will open in your browser automatically.
 
 ---
 
-## 🎨 Design Principles Applied
+##  Design Principles Applied
 
 - **Bertin (1983):** Hue used to encode country identity; value used in heatmap
 - **Cleveland & McGill (1984):** Position on common scale for bar and line charts
@@ -81,37 +81,29 @@ The dashboard will open in your browser automatically.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
-📦 ai-readiness-dashboard
- ┣ 📄 app.R          ← Main Shiny application (self-contained)
- ┗ 📄 README.md      ← This file
+ ai-readiness-dashboard
+ ┣ app.R          ← Main Shiny application (self-contained)
+ ┗  README.md      ← This file
 ```
 
 > The app is fully self-contained in a single `app.R` file. No external data files needed.
 
 ---
 
-## 👥 Team
+##  Team
 
 **Course:** INFS 4475 – Information Visualization  
 **Institution:** Sultan Qaboos University  
 **Semester:** SP2026  
-**Instructor:** Dr. Adil Al-Busaidi
+**Members:** Sara Al-Suliemani, Laiyan Al-Yaarubi, Reem Al-Hinai
 
 ---
 
-## 🔗 Live Demo
+##  Live Demo
 
-> Deployed on shinyapps.io: *(add your link here after publishing)*
-
----
-
-## ⚠️ Academic Integrity Note
-
-AI tools (Claude by Anthropic) were used to assist with code debugging and formatting. All design decisions, data selection, and analytical claims are the team's own work and are fully defensible under questioning.
-
----
+> Deployed on shinyapps.io: *(add your link here after publishing)
 
 *Data accessed May 2026 | Oxford GARI CC BY-SA 4.0*
